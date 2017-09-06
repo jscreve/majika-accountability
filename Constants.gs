@@ -21,4 +21,8 @@ var REDEVANCE_PRICE = 1000;\
 var EMAIL_MAJIKA = ['majika.madagascar@gmail.com', 'moussezafy@gmail.com'];\
 \
 var IMPORT_FOLDER_ID = '0B6q_0j86VQHiLTJmNHFuUVdpekk';\
-var SHEET_ID = '135H02cqQVI1caqyqFR8qNgMyx45iIn2Bud9_yuz48Qw';}
+var SHEET_ID = '135H02cqQVI1caqyqFR8qNgMyx45iIn2Bud9_yuz48Qw';\
+\
+var SMS_USER = 'majika';\
+var SMS_PASS = 'MHAtUd7O';\
+var SMS_SERVICEID = '28283';}

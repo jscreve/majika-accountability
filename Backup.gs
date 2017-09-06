@@ -43,7 +43,7 @@ function moveCopiedForms(sourceFolder, destinationFolder) \{\
     var file = files.next();\
     Logger.log('File : ' + file.getName());\
     //only move copied forms\
-    if(file.getName().indexOf('Copy') != -1) \{\
+    if(file.getName().indexOf('Copy') != -1 || file.getName().indexOf('Copie') != -1) \{\
       Logger.log('Moving : ' + file.getName());\
       destinationFolder.addFile(file);\
       sourceFolder.removeFile(file);\

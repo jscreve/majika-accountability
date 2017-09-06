@@ -7,8 +7,6 @@
 
 \f0\fs24 \cf0 \
 function manageCounting(event, contactSheet, contactSheetValues) \{\
-  \
-  var t1 = new Date().getTime();\
   //extract data from event\
   if(LOGGING)\
     Logger.log(event.values);\
